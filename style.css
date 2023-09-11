@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.profile-photo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.login-btn:hover {
+    background-color: #45a049;
+}
+
+.options {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cancel-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cancel-btn:hover {
+    background-color: darkred;
+}
+
+.forgot-password {
+    color: #333;
+    text-decoration: none;
+}
+
+.forgot-password span {
+    margin-left: 5px;
+}
